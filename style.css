@@ -4,11 +4,12 @@
 }
 .navbar h1{
     color:blue;
+    margin-left: 50px;
 }
 .nav1 a{
   color:black; 
   text-decoration: none;
-  
+  margin-right: 40px;
 }
 
 .nav1 a:hover{
@@ -17,8 +18,20 @@
 .nav1 button{
     border-radius: 10px;
     background-color:white;
+    margin-right: 20px;
 }
 
 .nav1 button:hover{
     background-color:rgb(217, 231, 236) ;
+}
+
+.backgroundImg img{
+    width:  1350px;
+
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    height:100%;
 }
