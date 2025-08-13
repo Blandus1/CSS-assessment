@@ -25,11 +25,53 @@
     background-color:rgb(217, 231, 236) ;
 }
 
-.backgroundImg img{
+.backgroundImg{
     width:  1350px;
-
+    height:100%;
+    background-image: url('first-image.jpeg');
+    background-size: cover;
 }
 
+
+.bImg {
+  padding-left: 100px;
+  padding-top: 40vh;
+  padding-right:90px;
+   
+}
+
+.bImg p{
+  color:white;  
+  
+    
+}
+.form{
+ display: flex;
+ gap:20px;
+ align-items: center;
+ border-radius:10px;
+ background-color:white;
+ background-size: cover;
+ width:1100px;
+ height:90px;
+}
+ form button{
+    color:white;
+    background-color:rgb(175, 231, 238);
+    border-radius: 30px;
+    border:1px solid black;
+    width:90px;
+    height:40px;
+ }
+ .form input{
+    border:1px solid black;
+    border-radius: 10px;
+    width:300px;
+    height:40px;
+
+
+
+ }
 html,body{
     margin: 0;
     padding: 0;
