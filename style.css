@@ -37,7 +37,7 @@
   padding-top: 40vh;
   padding-right:90px; 
 }
-.bImg p{
+.bImg h1{
   color:white;  
 }
 
@@ -87,8 +87,61 @@
     color: white;
     padding-left:60px;
  }
+ .picContainer{
+    display: flex;
+    width: 80%;
+    height:auto;
+    margin-top: 30px;
+ }
+  .picContainer img{
+    width: 200px;
+     border-radius: 10px;
+   
+    
+ }
+ .oneImg{
+    display: flex;
+    margin-left: 60px;
+    background-color: blue;
+    border-radius: 10px;
+ }
+  .oneImg h3{
+   color:white;
+   
+
+ }
+  .twoImg{
+
+    display: flex;
+    margin-left: 80px;
+    background-color: blue;
+     border-radius: 10px;
+ }
+  .twoImg h3{
+    color:white;
+ }
+  .threeImg{
+
+    display: flex;
+    margin-left: 130px;
+    background-color: blue;
+     border-radius: 10px;
+
+ }
+  .threeImg h3{
+
+   color:white;
+ }
+
+
+
+
+
+
+
+
 html,body{
     margin: 0;
-    padding: 0;
+    padding:0;
     height:100%;
 }
