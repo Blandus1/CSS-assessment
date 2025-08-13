@@ -32,22 +32,18 @@
     background-size: cover;
 }
 
-
 .bImg {
   padding-left: 100px;
   padding-top: 40vh;
-  padding-right:90px;
-   
+  padding-right:90px; 
 }
-
 .bImg p{
   color:white;  
-  
-    
 }
+
 .form{
  display: flex;
- gap:20px;
+ gap:15px;
  align-items: center;
  border-radius:10px;
  background-color:white;
@@ -57,7 +53,7 @@
 }
  form button{
     color:white;
-    background-color:rgb(175, 231, 238);
+    background-color:rgb(10, 79, 226);
     border-radius: 30px;
     border:1px solid black;
     width:90px;
@@ -66,11 +62,30 @@
  .form input{
     border:1px solid black;
     border-radius: 10px;
-    width:300px;
+    width:290px;
     height:40px;
+    margin-left:20px;
+ }
 
-
-
+ .belowbImg{
+    background-color: rgb(3, 3, 41);
+    display:flex;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-right:90px; 
+    border-radius:10px;
+    
+ }
+  .belowbImg button{
+    background-color: rgb(10, 79, 226);
+    color:white;
+    border-radius:30px;
+    margin-left:580px;
+ }
+  .belowbImg p{
+    color: white;
+    padding-left:60px;
  }
 html,body{
     margin: 0;
