@@ -1,6 +1,7 @@
 .navbar {
     display: flex;
      gap: 300px;
+     align-items: baseline;
 }
 .navbar h1{
     color:blue;
@@ -42,6 +43,7 @@
 }
 
 .form{
+ position:relative;
  display: flex;
  gap:15px;
  align-items: center;
@@ -62,7 +64,7 @@
  .form input{
     border:1px solid black;
     border-radius: 10px;
-    width:290px;
+    width:255px;
     height:40px;
     margin-left:20px;
  }
@@ -104,38 +106,120 @@
     margin-left: 60px;
     background-color: blue;
     border-radius: 10px;
+    color:white;
  }
-  .oneImg h3{
-   color:white;
-   
 
- }
   .twoImg{
 
     display: flex;
     margin-left: 80px;
     background-color: blue;
      border-radius: 10px;
+      color:white;
  }
-  .twoImg h3{
-    color:white;
- }
-  .threeImg{
 
+  .threeImg{
     display: flex;
     margin-left: 130px;
     background-color: blue;
      border-radius: 10px;
-
+      color:white;
  }
-  .threeImg h3{
-
-   color:white;
+.accommodation{
+    padding-left: 60px;
+}
+ .acImg {
+display: flex;
+gap:20px;
+color:white;
+ }
+ .acImg p{
+    margin-top: 240px;
+    font-family: Bold;
+    font-weight: 600;
  }
 
+ .acImg1{
+     background-image: url('./images/ac1.jpeg');
+     width:200px;
+    height:auto;
+    background-size: cover;
+    border-radius: 10px;
+ }
+  .acImg2{
+     background-image: url('./images/ac2.jpeg');
+     width:200px;
+    height:auto;
+    background-size: cover;
+    border-radius: 10px;
+ }
+  .acImg3{
+     background-image: url('./images/ac3.jpeg');
+     width:200px;
+    height:auto;
+    background-size: cover;
+    border-radius: 10px;
+ }
+  .acImg4{
+     background-image: url('./images/ac4.jpeg');
+     width:200px;
+    height:auto;
+    background-size: cover;
+    border-radius: 10px;
+ }
+  .acImg5{
+     background-image: url('./images/ac5.jpeg');
+     width:200px;
+    height:auto;
+    background-size: cover;
+    border-radius: 10px;
+ }
+  .acImg6{
+     background-image: url('./images/ac6.jpeg');
+     width:200px;
+    height:auto;
+    background-size: cover;
+    border-radius: 10px;
+ }
+ 
+ 
+.input1 img{
+  position: absolute;
+  left: 28px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  pointer-events: inherit;
+}
+.input1 input{
+    padding-left: 36px;
+}
 
-
-
+.input2 img{
+  position: absolute;
+  left: 360px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  pointer-events: inherit;
+}
+.input2 input{
+    padding-left: 36px;
+}
+.input3 img{
+  position: absolute;
+  left: 685px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  pointer-events: inherit;
+}
+.input3 input{
+    padding-left: 28px;
+}
 
 
 
